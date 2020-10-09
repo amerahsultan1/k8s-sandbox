@@ -44,3 +44,13 @@ kind: Namespace
 metadata:
   name: monitoring
 ---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: test
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: prod
+---
